@@ -13,8 +13,9 @@ const Recipes = () => {
       <h3>Recipes</h3>
       {data.map((x, index) =>
       	<div>
+          {console.log(x)}
 	        <h5 key={x.id}>
-	          <Link to={`/recipes/${index}`}>{x.title}</Link>
+	          <Link to={`/recipes/${index}/${x.path}`}>{x.title}</Link>
 	        </h5>
 
 	    </div>

@@ -17,8 +17,18 @@ class Recipe extends React.Component {
     console.log(data)
     return (
     <div>
-      <h3>{data[0].title}</h3>
-      <p>Makes {data[0].servings}</p>
+      <h3>{data[this.state.recipeId].title}</h3>
+      <p>Makes {data[this.state.recipeId].servings}</p>
+
+      {data[this.state.recipeId].modFrom != '' &&
+        <p>
+          Modified from <Link to={data[this.state.recipeId].modFrom}>here</Link>.
+        </p>
+      }
+
+      <img src={data[this.state.recipeId].photo} />
+
+
     </div>
     )
   };
