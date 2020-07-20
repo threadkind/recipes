@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import RecipeTags from "../components/RecipeTags"
 
 
 const data = require("../data/recipeData.json");
@@ -8,6 +9,8 @@ const Recipes = () => {
 
   return (
     <div className="cookbook">
+      <RecipeTags />
+
       <h3>Recipes</h3>
       {data.map((x, index) =>
       	<div>
