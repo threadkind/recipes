@@ -14,16 +14,10 @@ class Cookbook extends React.Component {
   }
 
   componentDidMount() {
-    this.showAll()
+    console.log('mounted')
+    this.setSelectedTag('all')
   }
 
-  showAll() {
-    let sel = []
-
-    this.state.data.forEach((x) => {
-      sel.push(x)
-    })
-  }
   setSelectedTag(selected) {
     this.setState({
       selectedTag: selected
@@ -33,7 +27,7 @@ class Cookbook extends React.Component {
     if(selected === 'all'){
       this.state.data.forEach((recipe) => {
         sel.push(recipe)
-      })//endpush
+      })
     }//endif
     else {
      this.state.data.forEach((recipe) => {
