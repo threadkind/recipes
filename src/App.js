@@ -26,7 +26,7 @@ class App extends React.Component {
 
             <Route exact path="/" component={ Home } />
             <Route path="/about" component={ About } />
-            <Route exact path="/recipes" component={ Cookbook } />
+            <Route exact path="/recipes" render={(props) => <Cookbook {...props} data={this.state.data} />} />
             <Route path="/recipes/:recipeId" component={ Recipe } />
 
 
