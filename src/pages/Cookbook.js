@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import RecipeTags from "../components/RecipeTags"
+import RecipeThumbnail from '../components/RecipeThumbnail'
 
 class Cookbook extends React.Component {
   constructor(props){
@@ -28,7 +29,7 @@ class Cookbook extends React.Component {
       this.state.data.forEach((recipe) => {
         sel.push(recipe)
       })
-    }//endif
+    }
     else {
      this.state.data.forEach((recipe) => {
         if(recipe.tags.includes(selected)){
@@ -48,11 +49,14 @@ class Cookbook extends React.Component {
         />
 
         <h3>Recipes</h3>
+        <div id="cookbookRecipes">
         {this.state.filtered.map((x, index) =>
-  	        <h5 key={x.id}>
-  	          <Link to={`/recipes/${index}/${x.path}`}>{x.title}</Link>
-  	        </h5>
+            <RecipeThumbnail
+              recipe={x}
+              index={index}
+          />
         )}
+        </div>
 
       </div>
     );
