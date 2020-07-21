@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import RecipeTags from "../components/RecipeTags"
 import RecipeThumbnail from '../components/RecipeThumbnail'
 
@@ -15,8 +14,7 @@ class Cookbook extends React.Component {
   }
 
   componentDidMount() {
-    console.log('mounted')
-    this.setSelectedTag('all')
+    this.setSelectedTag('All')
   }
 
   setSelectedTag(selected) {
@@ -25,7 +23,7 @@ class Cookbook extends React.Component {
     });
 
     let sel = []
-    if(selected === 'all'){
+    if(selected === 'All'){
       this.state.data.forEach((recipe) => {
         sel.push(recipe)
       })
@@ -37,7 +35,7 @@ class Cookbook extends React.Component {
         }
       })
     }
-    this.setState({filtered : sel})
+    this.setState({filtered : sel.reverse()})
   }
 
   render() {
@@ -48,12 +46,12 @@ class Cookbook extends React.Component {
           setSelectedTag={this.setSelectedTag}
         />
 
-        <h3>Recipes</h3>
+        <h2 id="cbRecipesTitle">Recipes</h2>
         <div id="cookbookRecipes">
-        {this.state.filtered.map((x, index) =>
+        {this.state.filtered.map((x) =>
             <RecipeThumbnail
               recipe={x}
-              index={index}
+              index={x.id}
           />
         )}
         </div>

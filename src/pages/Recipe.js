@@ -14,7 +14,6 @@ class Recipe extends React.Component {
 
 
   render() {
-    console.log(data)
     return (
     <div>
       <h3>{data[this.state.recipeId].title}</h3>

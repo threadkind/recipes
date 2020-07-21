@@ -21,27 +21,29 @@ class RecipeTags extends React.Component {
   render() {
 
   	   return (
-  	   	<div id="tags">
-  	   		{this.getTags()}
+  	   	<div id="recipeTags">
+	  	   	<p>Filter Recipes:</p>
+	  	   	<div id="tags">
+	  	   		{this.getTags()}
+	  	   		<button
+	  	   		key={this.state.tags.length + 1} className="rTag"
+	  	   			onClick={() => this.props.setSelectedTag('All')}>
+	  	   			All Recipes
+	  	   		</button>
 
-  	   		{this.state.tags.map((x, index) =>
-  	   			<button
-  	   				key={index}
-  	   				className="rTag"
-  	   				onClick={() => this.props.setSelectedTag(x)}>
-  	   			{x}
-  	   		</button>
+	  	   		{this.state.tags.map((x, index) =>
+	  	   			<button
+	  	   				key={index}
+	  	   				className="rTag"
+	  	   				onClick={() => this.props.setSelectedTag(x)}>
+	  	   			{x}
+	  	   		</button>
 
-  	   		)}
-  	   		<button
-  	   		key={this.state.tags.length + 1} className="rTag"
-  	   			onClick={() => this.props.setSelectedTag('all')}>
-  	   			All Recipes
-  	   		</button>
+	  	   		)}
 
-  	   		<p>Tags!!!</p>
 
-  	   	</div>
+	  	   	</div>
+	  	</div>
 
 
   )}}

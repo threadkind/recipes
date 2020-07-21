@@ -8,19 +8,15 @@ class RecipeThumbnail extends React.Component {
     		recipe : ''
     	}
 	}
-	componentDidMount() {
-		this.setState({recipe : this.props.recipe})
-	}
 
   render() {
-
   	return (
-  		<div className="recipeThumbnail">
-  			<Link to={`/recipes/${this.props.index}/${this.state.recipe.path}`} >
+  		<div className="recipeThumbnail" key={this.props.index}>
+  			<Link to={`/recipes/${this.props.index}/${this.props.recipe.path}`} >
 
 	  			<figure>
-	  				<img src={this.state.recipe.photo} alt={this.state.recipe.title}/>
-	  				<figcaption>{this.state.recipe.title}</figcaption>
+	  				<img src={this.props.recipe.photo} alt={this.state.recipe.title}/>
+	  				<figcaption>{this.props.recipe.title}</figcaption>
 	  			</figure>
   			</Link>
   		</div>
