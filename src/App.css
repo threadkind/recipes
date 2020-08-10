@@ -42,7 +42,8 @@
   margin: 0 auto;
 }
 
-#tags button {
+.rTag {
+  width: auto;
   margin: 1%;
   padding: 1%;
 }
@@ -77,6 +78,27 @@
   width: 100%;
 }
 
+.recipeThumbnail figcaption {
+  color: #000;
+}
+
+/* RECIPE ------------------*/
+
+
+.recipeMainImage {
+  width: 100%;
+}
+
+.recipeIngredients li {
+  text-align: left;
+  padding: 0 2%;
+}
+
+.recipeDirections li {
+  text-align: left;
+  padding: 0 2%;
+}
+
 
 @media only screen and (min-width: 768px) {
   .recipeThumbnail {
@@ -84,6 +106,31 @@
     border: solid 1px black;
     margin: 2%;
     box-shadow: 2px 2px 2px rgba(171, 171, 171,1);
+  }
+
+  .recipeContain {
+    width: 70%;
+    margin: 2% auto;
+    border: solid black 1px;
+    padding: 1%;
+    box-shadow: 2px 2px 5px grey;
+
+  }
+
+  .recipeMainImage {
+    width: 75%;
+  }
+
+}
+
+@media only screen and (min-width: 900px) {
+  .recipeThumbnail {
+    width: 20%;
+  }
+
+  .recipeContain {
+    width: 50%;
+    margin: 0 auto;
   }
 
 }
