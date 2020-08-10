@@ -8,7 +8,7 @@
 		"ingredients" : ["2 tbsp olive oil","1 large onion, chopped","1 pound ground beef","3 tbsp light brown sugar","1 10.75oz-can condensed tomato soup","0.25 cup ketchup","1 tbsp balsamic vinegar","Salt + pepper to taste", "8 medium hamburger buns"],
 		"toServe" : [],
 		"directions" : ["In a large skillet, heat up the olive oil over high heat. Add in the onions and brown.","Add in the ground beef and cook until brown. Drain if necessary.","Once the meat is cooked, add in the brown sugar and stir to dissolve and mix in.","Add in the soup, ketchup, vinegar, salt and pepper. Stir to mix.","Reduce the heat to low and simmer for 20 minutes.", "Serve in hamburger buns."],
-		"tags" : ["Beef"]
+		"tags" : ["beef"]
 	},
 	{	"id" : "1",
 		"path" : "sausage-rice-and-beans",
@@ -19,7 +19,7 @@
 		"ingredients" : ["2 tbsp sesame oil","1 large onion, chopped","0.5 12oz-rope beef polska kielbasa sausage, chopped","0.5 cup frozen sweetcorn","3 tbsp sweet chili sauce","0.5 16oz-can light red kidney beans","0.5 15oz-can black beans","3 cups cooked rice","Salt and pepper to taste"],
 		"toServe" : [],
 		"directions" : ["Add the sesame oil to a large skillet or wok over high heat.", "Add in the onions and brown.", "Add in the sausage and corn and stir around for a few minutes until warmed through.", "Add the sweet chili sauce to the pan and mix to stir.", "Add in the beans, bring to the boil and then simmer for 5-10 minutes.", "Remove from the heat and mix in the rice.", "Season with salt and pepper"],
-		"tags" : ["Sausage", "Rice", "Beans"]
+		"tags" : ["sausage", "rice", "beans"]
 	},
 	{	"id" : "2",
 		"path" : "hawaiian-meatballs",
@@ -30,7 +30,7 @@
 		"ingredients" : ["<strong>FOR THE MACARONI SALAD</strong>","1 cup milk, divided",		"1 cup mayonnaise, divided","0.5 tbsp light brown sugar","0.5 tsp salt","0.25 tsp pepper","0.5 pound elbow macaroni","0.125 cup cider vinegar","0.25 large onion, grated","1 stalk celery, finely chopped","<br><strong>FOR THE COCONUT RICE</strong>","2 cups jasmine rice","2.5 cups coconut milk, (or subsitute the same amount of liquid that your rice packet states)","<br><strong>FOR THE MEATBALLS</strong>","1 32oz-package precooked frozen meatballs","1 20oz-can pineapple chunks, do not drain juice","1 medium red bell pepper, diced","1 cup brown sugar","0.6 cup white vinegar","2 tbsp soy sauce"],
 		"toServe" : [],
 		"directions" : ["<strong>FOR THE MACARONI SALAD</strong>","Modified from <a href='https://www.gonnawantseconds.com/authentic-hawaiian-macaroni-salad-recipe/' target='_blank'>here.</a>","In a small mixing bowl, whisk together 0.75 cups milk, 0.5 cup mayonnaise, brown sugar, salt and pepper. Set aside.","Boil a pot of water, add a little salt to the water and cook the pasta until it is fat and soft.","Drain the past and put it back in the pot. Add in the vinegar and stir to coat the pasta.","Pour the pasta into a large bowl and cool for 10 minutes. ","Add the milk/mayo mixture into the pasta, stir and cool completely.","Add the remainder of the macaroni salad ingredient, stir to combine and refrigerate for atleast an hour.","<br><strong>FOR THE COCONUT RICE</strong>","Add the rice and coconut milk into the rice cooker to cook.","<br><strong>FOR THE MEATBALLS</strong>","Place meatballs in the bottom of the Instant Pot. Add in the diced peppers, undrained pineapple chunks, brown sugar, vinegar and soy sauce.","Lock in the lid on the Instant Pot and turn the knob to sealing.","Set the instant pot to manual/pressure cook for 7 minutes.","Quick release the instant pot and stir.", "Serve the meatballs over the rice, with a scoop of the mac salad on the side."],
-		"tags" : ["Hawaiian", "Meatballs", "Rice"] },
+		"tags" : ["Hawaiian", "meatballs", "rice"] },
 		{
 		"id":"3",
 		"path":"brocolli-cheese-soup",
@@ -41,7 +41,7 @@
 		"ingredients":["1 tbsp olive oil","1 large onion, diced","2 cups chicken stock","1 pound frozen broccoli","0.5 cup frozen carrots","0.25 tsp nutmeg","1.5 cups heavy cream","2 cups shredded sharp cheddar"],
 		"toServe":[],
 		"directions":["Press the Saute button. Melt butter and add in the onion. Saute for 5 minutes.","Add chicken stock, broccoli, carrots, and nutmeg.","Put lid on Instant Pot, turn the knob to sealing and press the Manual/Pressure Cook button with a cook time of 4 mins","Do a quick release and stir in cream.","Set the pot to Saute button again, but do not boil. Stir in cheese.","Use an immersion blender to blend the soup in the pot to your desired consistency"],
-		"tags":["soup","broccoli","cheese"]},
+		"tags":["meatless", "soup","broccoli","cheese"]},
 		{
 		"id":"4",
 		"path":"black-bean-coconut-stew",
@@ -116,7 +116,7 @@
 		"ingredients":["<br><strong>FOR THE PICKLED CARROTS</strong>","1 10oz-package shredded carrots","0.25 cup granulated sugar","0.5 tsp salt","1 cup white vinegar","<br><strong>FOR THE VIETNAMESE MAYONAISE</strong>","0.25 cup mayonnaise","0.5 tbsp rice wine vinegar","1 tsp curry powder","0.25 tbsp sriracha sauce","<br><strong>FOR THE CHICKEN</strong>","1 pound frozen chicken breasts","0.5 cup soy sauce","2 tbsp honey","2 tbsp light brown sugar","2 tbsp rice wine vinegar","2 tsp minced garlic","1 tbsp minced ginger","0.5 large onion, chopped","<br><strong>TO SERVE</strong>","6 whole bolillo rolls","0.5 whole cucumber, cut into spears","0.25 cup fresh cilantro leaves"],
 		"toServe":[],
 		"directions":["<br><strong>FOR THE PICKLED CARROTS</strong>","Modified from <a href=\"https://www.youtube.com/watch?v=p20V62f1ezQ\" target=\"_blank\">here</a>","Put the shredded carrots into a medium mixing bowl.","Add in the salt and 2 tsps of the sugar to the carrots.","Massage the carrots for about 5 minutes, until the carrots become flexible. Drain the carrots.","In a small mixing bowl, add 1 cup lukewarm water and then mix in the vinegar and the remainder of the sugar.","Put the carrots into a large widemouth mason jar and pour in the vinegar sugar mixture. The pickeld carrots will keep for up to a monht in the fridge.","<br><strong>FOR THE VIETNAMESE MAYONNAISE</strong>","Modified from <a href=\"https://noqualmsmom.com/rotisserie-chicken-dinner-1-easy-bahn-mi/\" target=\"_blank\">here</a>","Combine all vietnamese mayo ingredients together in a small bowl and set aside.","<br><strong>FOR THE CHICKEN</strong>","In a small bowl, add 1/4 cup of water, then add in soy sauce, honey, sugar, vinegar, garlic, ginger and onion until combined.","Add the chicken breasts to the bottom of the instant pot and pour the sauce over the top of the chicken.","Add lid and turn the knob to sealing. Press the manual/pressure cook button for 25 minutes for frozen chicken breasts.","When time is done, quick release the instant pot.","Take the chicken out of the instant pot and shred with 2 forks or bear claws.","Add the chicken back into the pot and mix the chicken into the sauce.","<br><strong>TO SERVE</strong>","To assemble the sandwiches, cut the bolillo rolls into half lengthwise.","Spread vietnamese mayo on each side of each of the rolls and split the chicken evenly between all of the sanwiches.","Top with some of the picked carrots, a few cucumber spears and a little cilantro."],
-		"tags":["chicken","vietnamese"]},
+		"tags":["chicken","Vietnamese"]},
 		{
 		"id":"11",
 		"path":"fish-taco-bowls",
