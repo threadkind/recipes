@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Cookbook from './pages/Cookbook'
 import Recipe from './pages/Recipe'
+import JSONHelper from './pages/JSONHelper'
 import './App.css';
 
 const data = require("./data/recipeData.json");
@@ -28,6 +29,7 @@ class App extends React.Component {
             <Route path="/about" component={ About } />
             <Route exact path="/recipes" render={(props) => <Cookbook {...props} data={this.state.data} />} />
             <Route path="/recipes/:recipeId" component={ Recipe } />
+            <Route exact path="/JSONHelper" component={ JSONHelper } />
 
 
 

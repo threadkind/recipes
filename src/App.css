@@ -87,3 +87,26 @@
   }
 
 }
+
+/* JSON Helper ------------------------ */
+#jHelp {
+  text-align: left;
+}
+
+#jHelp ul {
+  columns: 2;
+}
+
+.in {
+  width: 90%;
+  border: solid red 1px;
+}
+
+.in input {
+  width: 80%;
+}
+
+#jHelp textArea {
+  width: 100%;
+  height: 400px;
+}
