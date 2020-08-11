@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Threadkind Recipes",
+  "name": "Threadkind cookbook of delicious recipes!",
   "icons": [
     {
       "src": "favicon.png",
